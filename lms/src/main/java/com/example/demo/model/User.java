@@ -17,9 +17,24 @@ public class User {
 	private String mName;
 	private String lName;
 	private String eID;
+	private String mobile;
+	private String email;
 	private UserRoleType roleType;
 	
 	
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getMobile() {
+		return mobile;
+	}
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
 	public UserRoleType getRoleType() {
 		return roleType;
 	}
